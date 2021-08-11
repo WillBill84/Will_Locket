@@ -16,7 +16,7 @@ class App extends Component {
     return (
       <>
       <AnimatedCursor />
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <Navbar />
         <AnimatePresence>
           <Switch>
