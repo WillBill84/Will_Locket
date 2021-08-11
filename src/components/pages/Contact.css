@@ -1,0 +1,27 @@
+h5 {
+    color: #161a1d;
+    text-decoration: underline;
+    font-size: 1rem;
+}
+
+section .container-xxl {
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.socials svg {
+    width: 40px;
+    margin-right: 10px;
+    fill: #4f4f4f;
+}
+
+.socials svg:hover {
+    fill:#161a1d;
+}
+
+
+.form-control {
+    background: #fafafa;
+    border-radius: 0px;
+    border: 1px solid #dbdbdb;
+}

@@ -1,0 +1,53 @@
+
+.background {
+    background-image: url(../../assets/images/mountains_snow_2.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 88vh;
+    overflow: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+  }
+  .cloudOne {
+    margin: 0 auto;
+    right: 0;
+    top: 20% !important;
+    width: 60%;
+  }
+  .cloudTwo {
+    margin: 0 auto;
+    right: 0;
+    opacity: 0.4;
+    width: 100%;
+  }
+  .homeText {
+    display: flex;
+    flex-direction: column;
+    margin: 10% 20px;
+    color: #000;
+  }
+  
+  .homeText h1 {
+    font-weight: 600;
+    font-size: 60px;
+    margin: 0;
+  }
+  .homeText p {
+    margin: 1px;
+    font-size: 25px;
+    font-weight: 400;
+    background: #fff;
+    width: fit-content;
+    padding: 0 10px;
+  }
+
+
+  @media (max-width: 576px) {
+  .background {
+    height: 80vh;
+
+  }
+} 

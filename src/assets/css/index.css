@@ -1,0 +1,39 @@
+*{
+    cursor: none !important;
+}
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.btn {
+    border-radius: 0;
+
+}
+
+.btn:hover {
+    box-shadow: none;
+}
+
+a {
+    color: #50514f;
+
+}
+a:hover {
+    color: #161a1d;
+}
+
+
+::-moz-selection {
+    background: #EDFF00;
+}
+::selection {
+    background: #EDFF00;
+}
