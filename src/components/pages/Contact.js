@@ -2,6 +2,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import ContactForm from '../Form/Form.js';
+import Drawing from '../../assets/images/pine_2.jpeg';
 import './Contact.css';
 import Github from '../Icons/Github.js';
 import LinkedIn from '../Icons/LinkedIn.js';
@@ -21,7 +22,7 @@ export default function Contact() {
                             <h2>If you would like to get in touch and discuss working on a project or just to say Hello?</h2><h2>Contact me via the links below or by using the contact form provided.</h2>
                         </Col>
                         <Col sm={2}></Col>
-                        <Col><ContactForm /></Col>
+                        <Col><img src={Drawing} className="drawing"></img></Col>
                     </Row>
                 </Container>
                 <Container fluid="xxl">

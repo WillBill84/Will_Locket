@@ -1,6 +1,5 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import 'mdb-react-ui-kit/dist/css/mdb.min.css';
 import ReactDOM from 'react-dom';
 import './assets/css/index.css';
 import App from './App';

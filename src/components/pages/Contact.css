@@ -25,3 +25,18 @@ section .container-xxl {
     border-radius: 0px;
     border: 1px solid #dbdbdb;
 }
+
+.drawing {
+    position: absolute;
+    max-width: 400px;
+    width: 100%;
+    display: block;
+}
+
+
+/* Small devices */
+@media (max-width: 576px) {
+    .drawing {
+        display: none;
+    }
+}
