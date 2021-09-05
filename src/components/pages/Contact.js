@@ -19,7 +19,7 @@ export default function Contact() {
                 <Container fluid="xxl">
                     <Row>
                         <Col>
-                            <h2>If you would like to get in touch and discuss working on a project or just to say Hello?</h2><h2>Contact me via the links below or by using the contact form provided.</h2>
+                            <h2>If you would like to get in touch and discuss working on a project or just to say Hello?</h2><h2>Contact me via the links below.</h2>
                         </Col>
                         <Col sm={2}></Col>
                         <Col><img src={Drawing} className="drawing"></img></Col>
