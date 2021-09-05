@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Will_Locket/static/css/main.a628689a.chunk.css",
-    "main.js": "/Will_Locket/static/js/main.4fd2413f.chunk.js",
-    "main.js.map": "/Will_Locket/static/js/main.4fd2413f.chunk.js.map",
+    "main.js": "/Will_Locket/static/js/main.0bb51f1c.chunk.js",
+    "main.js.map": "/Will_Locket/static/js/main.0bb51f1c.chunk.js.map",
     "runtime-main.js": "/Will_Locket/static/js/runtime-main.e047652d.js",
     "runtime-main.js.map": "/Will_Locket/static/js/runtime-main.e047652d.js.map",
     "static/css/2.4be38407.chunk.css": "/Will_Locket/static/css/2.4be38407.chunk.css",
@@ -30,6 +30,6 @@
     "static/css/2.4be38407.chunk.css",
     "static/js/2.fb14d9cd.chunk.js",
     "static/css/main.a628689a.chunk.css",
-    "static/js/main.4fd2413f.chunk.js"
+    "static/js/main.0bb51f1c.chunk.js"
   ]
 }
