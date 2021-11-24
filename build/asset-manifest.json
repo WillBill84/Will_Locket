@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Will_Locket/static/css/main.a628689a.chunk.css",
-    "main.js": "/Will_Locket/static/js/main.0bb51f1c.chunk.js",
-    "main.js.map": "/Will_Locket/static/js/main.0bb51f1c.chunk.js.map",
-    "runtime-main.js": "/Will_Locket/static/js/runtime-main.e047652d.js",
-    "runtime-main.js.map": "/Will_Locket/static/js/runtime-main.e047652d.js.map",
+    "main.css": "/Will_Locket/static/css/main.0a8f3c8e.chunk.css",
+    "main.js": "/Will_Locket/static/js/main.187d95b2.chunk.js",
+    "main.js.map": "/Will_Locket/static/js/main.187d95b2.chunk.js.map",
+    "runtime-main.js": "/Will_Locket/static/js/runtime-main.33bbe9ac.js",
+    "runtime-main.js.map": "/Will_Locket/static/js/runtime-main.33bbe9ac.js.map",
     "static/css/2.4be38407.chunk.css": "/Will_Locket/static/css/2.4be38407.chunk.css",
-    "static/js/2.fb14d9cd.chunk.js": "/Will_Locket/static/js/2.fb14d9cd.chunk.js",
-    "static/js/2.fb14d9cd.chunk.js.map": "/Will_Locket/static/js/2.fb14d9cd.chunk.js.map",
-    "static/js/3.e07b2ec1.chunk.js": "/Will_Locket/static/js/3.e07b2ec1.chunk.js",
-    "static/js/3.e07b2ec1.chunk.js.map": "/Will_Locket/static/js/3.e07b2ec1.chunk.js.map",
+    "static/js/2.afa238cb.chunk.js": "/Will_Locket/static/js/2.afa238cb.chunk.js",
+    "static/js/2.afa238cb.chunk.js.map": "/Will_Locket/static/js/2.afa238cb.chunk.js.map",
+    "static/js/3.9332282d.chunk.js": "/Will_Locket/static/js/3.9332282d.chunk.js",
+    "static/js/3.9332282d.chunk.js.map": "/Will_Locket/static/js/3.9332282d.chunk.js.map",
     "index.html": "/Will_Locket/index.html",
     "static/css/2.4be38407.chunk.css.map": "/Will_Locket/static/css/2.4be38407.chunk.css.map",
-    "static/css/main.a628689a.chunk.css.map": "/Will_Locket/static/css/main.a628689a.chunk.css.map",
-    "static/js/2.fb14d9cd.chunk.js.LICENSE.txt": "/Will_Locket/static/js/2.fb14d9cd.chunk.js.LICENSE.txt",
+    "static/css/main.0a8f3c8e.chunk.css.map": "/Will_Locket/static/css/main.0a8f3c8e.chunk.css.map",
+    "static/js/2.afa238cb.chunk.js.LICENSE.txt": "/Will_Locket/static/js/2.afa238cb.chunk.js.LICENSE.txt",
     "static/media/1.3a3c8ec1.png": "/Will_Locket/static/media/1.3a3c8ec1.png",
     "static/media/RainProofApp.c33b1031.png": "/Will_Locket/static/media/RainProofApp.c33b1031.png",
     "static/media/ben_site.2526afac.png": "/Will_Locket/static/media/ben_site.2526afac.png",
@@ -21,15 +21,13 @@
     "static/media/level5.6b189895.png": "/Will_Locket/static/media/level5.6b189895.png",
     "static/media/Home.css": "/Will_Locket/static/media/mountains_snow_2.8d13173e.jpg",
     "static/media/password_gen.70850b3d.png": "/Will_Locket/static/media/password_gen.70850b3d.png",
-    "static/media/pine_2.a0832885.jpeg": "/Will_Locket/static/media/pine_2.a0832885.jpeg",
-    "static/media/w.79a3a70f.svg": "/Will_Locket/static/media/w.79a3a70f.svg",
     "static/media/weather_app.34735756.png": "/Will_Locket/static/media/weather_app.34735756.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.e047652d.js",
+    "static/js/runtime-main.33bbe9ac.js",
     "static/css/2.4be38407.chunk.css",
-    "static/js/2.fb14d9cd.chunk.js",
-    "static/css/main.a628689a.chunk.css",
-    "static/js/main.0bb51f1c.chunk.js"
+    "static/js/2.afa238cb.chunk.js",
+    "static/css/main.0a8f3c8e.chunk.css",
+    "static/js/main.187d95b2.chunk.js"
   ]
 }
