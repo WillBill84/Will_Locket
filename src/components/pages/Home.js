@@ -5,6 +5,9 @@ import cloudTwo from '../../assets/images/c4_2.png';
 import './Home.css';
 import { motion } from "framer-motion";
 import pageTransition from '../Animations/pageTransition';
+import About from '../pages/About';
+import Projects from '../pages/Projects';
+import Footer from '../Footer/Footer';
 
 
 const Home = () => {
@@ -24,7 +27,6 @@ const Home = () => {
 
     return (
         <motion.div initial="out" animate="in" exit="out" variants={pageTransition} transition={pageTransition}>
-
             <div data-relative-input="true" id="scene" ref={sceneEl}>
                 <div className="background" data-depth="0.05">
                     <div className="homeText">
@@ -36,11 +38,13 @@ const Home = () => {
                 <img src={cloudOne} alt="mountain clouds" data-depth=".8" className="cloudOne" />
                 <img src={cloudTwo} alt="mountain clouds" data-depth=".2" className="cloudTwo" />
             </div>
+            <About/>
+            <Projects/>
+            <Footer/>
         </motion.div>
+        
     );
 }
-
-
 
 
 export default Home;

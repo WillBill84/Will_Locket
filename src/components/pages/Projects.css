@@ -6,16 +6,22 @@ h4 {
     margin-top: 40px;
 }
 .row:last-child {
-    margin-bottom: 40px;
+    margin-bottom: 0px;
 }
-.projects .row:nth-child(even) {
+.projects {
+    background: #f7f7f7;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+.projects .row:nth-child(odd) {
     flex-direction: row-reverse;
 }
 .col-sm-8 {
     position:relative;
+    margin-bottom: 20px;
 }
 
-.col-sm-4 {
+.projects .col-sm-4 {
     display: flex;
     flex-direction: column;
     align-items: flex-start;

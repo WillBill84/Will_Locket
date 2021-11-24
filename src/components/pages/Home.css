@@ -5,7 +5,7 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 88vh;
+    height: 95vh;
     overflow: hidden;
     background-position: center;
     background-repeat: no-repeat;
@@ -26,18 +26,24 @@
   .homeText {
     display: flex;
     flex-direction: column;
-    margin: 10% 20px;
-    color: #000;
+    margin: 10% 4%;
   }
   
+  h1 {
+    font-family: 'Rozha One', serif;
+  }
   .homeText h1 {
-    font-weight: 600;
-    font-size: 60px;
+    font-weight: 800;
+    font-size: 4rem;
     margin: 0;
+    line-height: 1;
+    letter-spacing: 0px;
+    z-index: 3;
+    
   }
   .homeText p {
     margin: 1px;
-    font-size: 25px;
+    font-size:  min(max(2rem, 4vw), 25px);
     font-weight: 400;
     background: #fff;
     width: fit-content;
@@ -47,7 +53,10 @@
 
   @media (max-width: 576px) {
   .background {
-    height: 80vh;
+    height: 95vh;
 
+  }
+  .homeText { 
+    margin: 10% 4%;
   }
 } 

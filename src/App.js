@@ -7,7 +7,7 @@ import About from './components/pages/About';
 import Projects from './components/pages/Projects';
 import Contact from './components/pages/Contact';
 import { AnimatePresence } from "framer-motion";
-import AnimatedCursor from './components/cursor/cursor';
+/* import AnimatedCursor from './components/cursor/cursor'; */
 
 
 class App extends Component {
@@ -15,7 +15,7 @@ class App extends Component {
   render() {
     return (
       <>
-      <AnimatedCursor />
+      {/* <AnimatedCursor /> */}
       <Router basename={process.env.PUBLIC_URL}>
         <Navbar />
         <AnimatePresence>

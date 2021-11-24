@@ -1,76 +1,86 @@
 import React, { useState } from "react";
-import { NavLink } from "react-router-dom";
-import Logo from '../../assets/images/w.svg';
-import { Squash as Hamburger } from 'hamburger-react'
+import { HashLink as Link } from 'react-router-hash-link';
+import LogoIcon from '../Icons/LogoIcon';
+import AboutIcon from '../Icons/AboutIcon';
+import ProjectsIcon from '../Icons/ProjectsIcon';
+import ContactIcon from '../Icons/ContactIcon';
+import { Squash as Hamburger } from 'hamburger-react';
+
 import './Navbar.css';
 
-
 function NavBar() {
-
 
     const [click, setClick] = useState(false);
 
     const handleClick = () => setClick(!click);
 
+    const scrollWithOffset = (el) => {
+        const yCoordinate = el.getBoundingClientRect().top + window.pageYOffset;
+        const yOffset = -60; 
+        window.scrollTo({ top: yCoordinate + yOffset, behavior: 'smooth' }); 
+    }
 
     return (
         <>
             <nav className="navbar">
 
-                <NavLink exact to="/" className="logo">
-                    <img src={Logo} alt="Will Locket" />
-                </NavLink>
+                <Link to="/#" className="logo">
+                    <LogoIcon/>
+                </Link>
 
                 <ul className={click ? "nav-menu active" : "nav-menu"}>
                     <li className="nav-item">
-                        <NavLink
-                            exact
-                            to="/"
-                            activeClassName="active"
+                        <Link
+                            
+                            to="/#"
                             className="nav-links"
                             onClick={handleClick}
 
                         >
+                            <LogoIcon/>
                             Home
-                        </NavLink>
+                        </Link>
                     </li>
                     <li className="nav-item">
-                        <NavLink
-                            exact
-                            to="/about"
-                            activeClassName="active"
+                        <Link
+                            
+                            to="/#about"
                             className="nav-links"
                             onClick={handleClick}
+                            scroll={el => scrollWithOffset(el)}
                         >
+                            <AboutIcon/>
                             About
-                        </NavLink>
+                           
+                        </Link>
                     </li>
                     <li className="nav-item">
-                        <NavLink
-                            exact
-                            to="/projects"
-                            activeClassName="active"
+                        <Link
+                            
+                            to="/#projects"
                             className="nav-links"
                             onClick={handleClick}
+                            scroll={el => scrollWithOffset(el)}
                         >
+                           <ProjectsIcon/>
                             Projects
-                        </NavLink>
+                        </Link>
                     </li>
                     <li className="nav-item">
-                        <NavLink
-                            exact
+                        <Link
+                            
                             to="/contact"
-                            activeClassName="active"
                             className="nav-links"
                             onClick={handleClick}
                         >
+                            <ContactIcon/>
                             Contact
-                        </NavLink>
+                        </Link>
                     </li>
                 </ul>
-                <a href="#" className="nav-icon" onClick={handleClick}>
-                    <Hamburger onClick={handleClick} color="#50514f" label="Show menu" toggled={click} toggle={setClick} />
-                </a>
+                <div className="nav-icon" onClick={handleClick}>
+                    <Hamburger onClick={handleClick} size={20} color="#212529" label="Show menu" toggled={click} toggle={setClick} />
+                </div>
 
             </nav>
         </>

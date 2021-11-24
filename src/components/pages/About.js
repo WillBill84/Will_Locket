@@ -6,18 +6,27 @@ import { motion } from "framer-motion";
 import pageTransition from '../Animations/pageTransition';
 
 
-
 export default function About() {
 
     return (
         <motion.div initial="out" animate="in" exit="out" variants={pageTransition} transition={pageTransition}>
-            <section>
+            <section id="about">
+                
                 <Container fluid="xxl">
+                    <h1 className="bigHeader">About</h1>
+                   
                     <Row>
                         <Col>
-                            <h2>My name is Will Locket, I am a creative frontend developer from Melbourne, Australia.</h2><h2>I specialise in designing and developing for the web.</h2>
+                            <h2>Will Locket is a creative web developer from Melbourne, Australia that specialises in designing and developing for the web.</h2>
+                            <h4>His passion for writing code combined with a background in graphic design enables him to build unique and engaging web apps.</h4>
                         </Col>
                         <Col sm={2}></Col>
+                        <Col>
+                            
+                        </Col>
+                       
+                    </Row>
+                    <Row>
                         <Col>
                             <h5>Education:</h5>
                             <ul className="list">
@@ -26,6 +35,10 @@ export default function About() {
                                 <li><p>Certificate IV in Design</p><p>Brighton Bay Art, Design and Photography</p></li>
                             </ul>
 
+                        </Col>
+                        <Col sm={2}></Col>
+                        <Col>
+                            
                         </Col>
                     </Row>
                 </Container>

@@ -1,3 +1,15 @@
+section {
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+.bigHeader {
+    font-weight: 800;
+    font-size: 60px;
+}
+
+#about .row {
+    margin-top: 20px;
+}
 
 ul {
     list-style: none;
@@ -10,15 +22,4 @@ li p {
 
 .list li {
     margin-bottom: 20px;
-}
-.skills ul {
-
-    display: grid;
-    grid-template: 1fr/repeat(3,1fr);
-    grid-gap: 1rem;
-    grid-row-gap: 1rem;
-}
-
-.skills li {
-    
 }

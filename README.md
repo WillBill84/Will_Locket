@@ -45,7 +45,7 @@ Languages used in the assignment:
 ## View Project
 
 link to live version:
-https://willbill84.github.io/React-Portfolio/
+https://willbill84.github.io/Will_Locket/
 
 Screen Shot 2021-07-19 at 5.31.01 pm<img width="1271" alt="Screen Shot 2021-07-19 at 5 31 01 pm" src="https://user-images.githubusercontent.com/78286026/126121927-ca7a6e57-2c29-474d-9981-761d6a8a9aa6.png">
 
