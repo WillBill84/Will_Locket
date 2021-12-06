@@ -24,7 +24,7 @@ function NavBar() {
         <>
             <nav className="navbar">
 
-            <a href="/" className="logo">
+            <a href="/Will_Locket" className="logo">
                     <LogoIcon/>
                 </a>
 
