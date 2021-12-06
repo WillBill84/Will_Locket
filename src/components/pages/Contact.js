@@ -13,7 +13,7 @@ export default function Contact() {
 
     return (
         <motion.div initial="out" animate="in" exit="out" variants={pageTransition} transition={pageTransition}>
-            <section>
+            <section id="contact">
                 <Container fluid="xxl">
                     <Row>
                         <Col>

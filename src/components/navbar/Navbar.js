@@ -24,9 +24,9 @@ function NavBar() {
         <>
             <nav className="navbar">
 
-                <Link to="/#" className="logo">
+            <a href="/" className="logo">
                     <LogoIcon/>
-                </Link>
+                </a>
 
                 <ul className={click ? "nav-menu active" : "nav-menu"}>
                     <li className="nav-item">

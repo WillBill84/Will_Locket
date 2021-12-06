@@ -1,5 +1,4 @@
 
-
 const pageTransition = {
     in: {
         opacity: 1
@@ -7,7 +6,7 @@ const pageTransition = {
     out: {
         opacity: 0
     },
-    duration: .8
+    duration: 1.1
 };
 
 

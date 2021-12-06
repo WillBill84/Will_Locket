@@ -2,13 +2,40 @@ section {
     padding-bottom: 5%;
     padding-top: 5%;
 }
+#about {
+    background-image: url(../../assets/images/about_background.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
 .bigHeader {
     font-weight: 800;
     font-size: 60px;
 }
+.aboutDivs {
+    display: flex;
+}
+.flex-left {
+    width: 50%;
+    margin: 5px;
+    padding: 5px;
+  }
+  
+  .flex-right {
+    width: 47%;
+    margin: 5px;
+    padding: 5px;
+  }
+
+  .flex-right img {
+    width: 100%;
+  }
 
 #about .row {
     margin-top: 20px;
+    display: flex;
+    flex-direction: row;
 }
 
 ul {
@@ -22,4 +49,12 @@ li p {
 
 .list li {
     margin-bottom: 20px;
+}
+
+
+/* Small devices */
+@media (max-width: 576px) {
+    .flex-left {
+        width: 100%;
+    }
 }
