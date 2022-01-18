@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Will_Locket/static/css/main.92e3b66d.chunk.css",
-    "main.js": "/Will_Locket/static/js/main.df63a399.chunk.js",
-    "main.js.map": "/Will_Locket/static/js/main.df63a399.chunk.js.map",
+    "main.js": "/Will_Locket/static/js/main.bb8d18e5.chunk.js",
+    "main.js.map": "/Will_Locket/static/js/main.bb8d18e5.chunk.js.map",
     "runtime-main.js": "/Will_Locket/static/js/runtime-main.33bbe9ac.js",
     "runtime-main.js.map": "/Will_Locket/static/js/runtime-main.33bbe9ac.js.map",
     "static/css/2.4be38407.chunk.css": "/Will_Locket/static/css/2.4be38407.chunk.css",
@@ -15,21 +15,19 @@
     "static/css/main.92e3b66d.chunk.css.map": "/Will_Locket/static/css/main.92e3b66d.chunk.css.map",
     "static/js/2.c5d129be.chunk.js.LICENSE.txt": "/Will_Locket/static/js/2.c5d129be.chunk.js.LICENSE.txt",
     "static/media/1.3a3c8ec1.png": "/Will_Locket/static/media/1.3a3c8ec1.png",
-    "static/media/RainProofApp.c33b1031.png": "/Will_Locket/static/media/RainProofApp.c33b1031.png",
+    "static/media/PCR_Mockup.ef64310e.png": "/Will_Locket/static/media/PCR_Mockup.ef64310e.png",
     "static/media/About.css": "/Will_Locket/static/media/about_background.d6b07ec1.jpg",
     "static/media/ben_site.2526afac.png": "/Will_Locket/static/media/ben_site.2526afac.png",
     "static/media/c4_2.c6de6ec7.png": "/Will_Locket/static/media/c4_2.c6de6ec7.png",
     "static/media/Contact.css": "/Will_Locket/static/media/contact_background.069ff2e2.jpg",
     "static/media/level5.6b189895.png": "/Will_Locket/static/media/level5.6b189895.png",
-    "static/media/Home.css": "/Will_Locket/static/media/mountains_snow_2.8d13173e.jpg",
-    "static/media/password_gen.70850b3d.png": "/Will_Locket/static/media/password_gen.70850b3d.png",
-    "static/media/weather_app.34735756.png": "/Will_Locket/static/media/weather_app.34735756.png"
+    "static/media/Home.css": "/Will_Locket/static/media/mountains_snow_2.8d13173e.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.33bbe9ac.js",
     "static/css/2.4be38407.chunk.css",
     "static/js/2.c5d129be.chunk.js",
     "static/css/main.92e3b66d.chunk.css",
-    "static/js/main.df63a399.chunk.js"
+    "static/js/main.bb8d18e5.chunk.js"
   ]
 }
