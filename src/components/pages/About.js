@@ -17,7 +17,7 @@ export default function About() {
                 
                     <Row>
                         <div className="flex-left">
-                            <h2>Will Locket is a creative web developer from Melbourne, Australia that specialises in designing and developing for the web.</h2>
+                            <h2>Will Locket is a creative web developer from Melbourne, Australia that specialises in UX/UI design and developing websites.</h2>
                             <h4 style={{marginTop:"15px"}}>His passion for writing code combined with a background in graphic design enables him to build unique and engaging web apps.</h4>
                         
                             <div style={{marginTop:"30px"}}>
