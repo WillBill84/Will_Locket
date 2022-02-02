@@ -3,30 +3,12 @@
 
 ## Description
 
-This is my portfolio website built with React. Although it is still currently in development the basics are starting to come together. The home page features a Parallax layered image that is triggered by moving the mouse, it has a responsive nav that uses react-router-dom for the page linking. About page has some basic text although I am looking to fill this out more and add some more design and styling. 
-
-Projects page is is set up with a project component for each individual project that uses props to change pictures and text. I am going to add some more basic design and animation to this section to add a bit more interest. Also I need to add a lazy loading for the images as well.. 
-
-the contact page has a basic layout with a form, the backend hasn't been built yet so the form handling will be done soon.. 
+Single page portfolio website that displays some of my projects and contact information. It is built with React and so far I have added some subtle animations. The  main images used for the homepage features a parallax effect linked to the mouse cursor. The projects section also have animations based on page scroll.
 
 
 ## Future development 
-
-some functionality that I am going to be adding: 
-
-• new logo & animation on hover - I will do this with aftereffects/bodymoving 
-
-• projects page lazy load & some subtle animations
-
-• backend and form handler. 
-
-• a more polished design 
-
-• page transitions - simple fade in out on pages link click. (GSAP)
-
-• finish content - about text , illustrations for about page and contact page. 
-
-• custom mouse pointer
+ 
+• animating the logo on hover - I will do this with aftereffects/bodymoving plugin
 
 
 ## Technologies
